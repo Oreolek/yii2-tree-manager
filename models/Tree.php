@@ -6,7 +6,7 @@
  * @version   1.0.6
  */
 
-namespace kartik\tree\models;
+namespace oreolek\tree\models;
 
 use yii\db\ActiveRecord;
 
@@ -52,7 +52,7 @@ class Tree extends ActiveRecord
 
     /**
      * @var string the classname for the TreeQuery that implements the NestedSetQueryBehavior.
-     * If not set this will default to `kartik\tree\models\TreeQuery`.
+     * If not set this will default to `oreolek\tree\models\TreeQuery`.
      */
     public static $treeQueryClass;
 

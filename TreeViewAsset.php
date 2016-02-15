@@ -6,7 +6,7 @@
  * @version   1.0.6
  */
 
-namespace kartik\tree;
+namespace oreolek\tree;
 
 use kartik\base\AssetBundle;
 

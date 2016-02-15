@@ -6,7 +6,7 @@
  * @version 1.0.6
  */
 
-namespace kartik\tree\models;
+namespace oreolek\tree\models;
 
 use yii\db\ActiveQuery;
 use creocoder\nestedsets\NestedSetsQueryBehavior;

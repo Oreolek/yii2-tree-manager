@@ -6,7 +6,7 @@
  * @version   1.0.6
  */
 
-namespace kartik\tree;
+namespace oreolek\tree;
 
 use Yii;
 use yii\helpers\Html;
@@ -17,7 +17,7 @@ use yii\base\InvalidConfigException;
 use yii\web\View;
 
 /**
- * An input widget that extends kartik\tree\TreeView, and allows one to
+ * An input widget that extends oreolek\tree\TreeView, and allows one to
  * select records from the tree.
  *
  * @author Kartik Visweswaran <kartikv2@gmail.com>

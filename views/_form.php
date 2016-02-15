@@ -5,10 +5,10 @@
  * @version   1.0.6
  */
 
-use kartik\form\ActiveForm;
-use kartik\tree\Module;
-use kartik\tree\TreeView;
-use kartik\tree\models\Tree;
+use oreolek\form\ActiveForm;
+use oreolek\tree\Module;
+use oreolek\tree\TreeView;
+use oreolek\tree\models\Tree;
 use yii\helpers\ArrayHelper;
 use yii\helpers\Html;
 use yii\web\View;

@@ -6,7 +6,7 @@
  * @version   1.0.6
  */
 
-namespace kartik\tree;
+namespace oreolek\tree;
 
 use Yii;
 use yii\base\InvalidConfigException;
@@ -17,7 +17,7 @@ use yii\db\ActiveQuery;
 use yii\db\ActiveRecord;
 use kartik\base\Config;
 use kartik\base\Widget;
-use kartik\tree\models\Tree;
+use oreolek\tree\models\Tree;
 
 /**
  * An enhanced tree view widget for Yii Framework 2 that allows management and manipulation of hierarchical data using
@@ -250,7 +250,7 @@ class TreeView extends Widget
     public $showTooltips = true;
 
     /**
-     * @var bool whether to auto load the bootstrap plugin assets if `showTooltips` is `true` OR if 
+     * @var bool whether to auto load the bootstrap plugin assets if `showTooltips` is `true` OR if
      * `TreeViewInput::asDropdown` is true. Defaults to `true`.
      */
     public $autoLoadBsPlugin = true;
@@ -549,7 +549,7 @@ HTML;
         if (empty($class) || !is_subclass_of($class, ActiveRecord::className())) {
             throw new InvalidConfigException("The 'query' must be implemented using 'ActiveRecord::find()' method.");
         }
-        $trait = 'kartik\tree\models\TreeTrait';
+        $trait = 'oreolek\tree\models\TreeTrait';
         if (!self::usesTrait($class, $trait)) {
             throw new InvalidConfigException(
                 "The model class '{$class}' for the 'query' must use the trait '{$trait}' or extend from '" .
@@ -1167,7 +1167,7 @@ HTML;
         return $var ? 1 : 0;
     }
 
-    
+
     /**
      * Renders the markup for the detail form to edit/view the selected tree node
      *

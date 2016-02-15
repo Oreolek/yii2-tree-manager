@@ -6,7 +6,7 @@
  * @version   1.0.6
  */
 
-namespace kartik\tree;
+namespace oreolek\tree;
 
 use kartik\base\AssetBundle;
 
@@ -22,7 +22,7 @@ class TreeViewInputAsset extends AssetBundle
      * @inheritdoc
      */
     public $depends = [
-        'kartik\tree\TreeViewAsset'
+        'oreolek\tree\TreeViewAsset'
     ];
 
     /**
