@@ -9,7 +9,7 @@
 namespace oreolek\tree\models;
 
 use yii\db\ActiveQuery;
-use creocoder\nestedsets\NestedSetsQueryBehavior;
+use oreolek\nestedsets\NestedSetsQueryBehavior;
 
 /**
  * This is the base query class for the nested set tree
