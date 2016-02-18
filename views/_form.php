@@ -5,7 +5,7 @@
  * @version   1.0.6
  */
 
-use oreolek\form\ActiveForm;
+use kartik\form\ActiveForm;
 use oreolek\tree\Module;
 use oreolek\tree\TreeView;
 use oreolek\tree\models\Tree;
